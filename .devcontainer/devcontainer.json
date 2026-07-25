@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "ghcr.io/mcanouil/quarto-codespaces:latest",
   "features": {
     "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {},
     "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {},
