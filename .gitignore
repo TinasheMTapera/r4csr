@@ -10,3 +10,5 @@
 r4csr.tex
 index.adx
 index.thm
+
+**/*.quarto_ipynb

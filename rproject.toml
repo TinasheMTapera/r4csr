@@ -1,0 +1,54 @@
+# this config was migrated from renv.lock on 2026-07-28
+[project]
+name = "/Users/tit420/projects/r4csr"
+r_version = "4.5"
+
+repositories = [
+    { alias = "PPM", url = "https://packagemanager.posit.co/cran/latest"},
+    { alias = "CRAN", url = "https://cran.r-project.org/" },
+]
+
+dependencies = [
+    { name = "Formula", repository = "PPM" },
+    { name = "R6", repository = "PPM" },
+    { name = "RColorBrewer", repository = "PPM" },
+    { name = "askpass", repository = "PPM" },
+    { name = "bit", repository = "PPM" },
+    { name = "brio", repository = "PPM" },
+    { name = "cachem", repository = "PPM" },
+    { name = "cellranger", repository = "PPM" },
+    { name = "conflicted", repository = "PPM" },
+    { name = "crayon", repository = "PPM" },
+    { name = "desc", repository = "PPM" },
+    { name = "farver", repository = "PPM" },
+    { name = "fastmap", repository = "PPM" },
+    { name = "fontawesome", repository = "PPM" },
+    { name = "gtable", repository = "PPM" },
+    { name = "ids", repository = "PPM" },
+    { name = "jquerylib", repository = "PPM" },
+    { name = "jsonlite", repository = "PPM" },
+    { name = "labeling", repository = "PPM" },
+    { name = "memoise", repository = "PPM" },
+    { name = "mime", repository = "PPM" },
+    { name = "modelr", repository = "PPM" },
+    { name = "munsell", repository = "PPM" },
+    { name = "numDeriv", repository = "PPM" },
+    { name = "pkgconfig", repository = "PPM" },
+    { name = "prettyunits", repository = "PPM" },
+    { name = "progress", repository = "PPM" },
+    { name = "rematch", repository = "PPM" },
+    { name = "rematch2", repository = "PPM" },
+    { name = "remotes", repository = "PPM" },
+    { name = "reprex", repository = "PPM" },
+    { name = "sass", repository = "PPM" },
+    { name = "stringi", repository = "PPM" },
+    { name = "sys", repository = "PPM" },
+    { name = "tidyselect", repository = "PPM" },
+    { name = "tidyverse", repository = "PPM" },
+    { name = "tzdb", repository = "PPM" },
+    "r2rtf",
+    "table1",
+    "emmeans",
+    "officer",
+    "kableExtra",
+]
